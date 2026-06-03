@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kailash School of Excellence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- PROGRESS BAR -->
+<div id="progressBar"></div>
+
+<!-- PRELOADER -->
+<div id="preloader">
+  <div class="loader">
+    <img src="assets/logo.jpeg" alt="Logo">
+    <h2>KAILASH SCHOOL OF EXCELLENCE</h2>
+    <p>Every Step Today, A Better Tomorrow</p>
+  </div>
+</div>
+
+<!-- SIDEBAR OVERLAY -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<!-- SIDEBAR -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-logo">
+      <img src="assets/logo.jpeg" alt="Logo">
+      <div>
+        <h3>KAILASH SCHOOL</h3>
+        <span>Senior Secondary - CBSE</span>
+      </div>
+    </div>
+    <button class="sidebar-close" id="sidebarClose">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+
+  <nav class="sidebar-nav">
+
+    <div class="sidebar-item">
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-house"></i> Home
+      </a>
+    </div>
+
+    <div class="sidebar-item has-sub">
+      <a href="#" class="sidebar-link sidebar-toggle-link">
+        <i class="fa-solid fa-school"></i> About
+        
+      </a>
+      
+    </div>
+
+    <div class="sidebar-item has-sub">
+      <a href="#" class="sidebar-link sidebar-toggle-link">
+        <i class="fa-solid fa-book-open"></i> Academic
+        <i class="fa-solid fa-chevron-down arrow"></i>
+      </a>
+      <div class="sidebar-sub">
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Primary (I–V)</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Middle (VI–VIII)</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Secondary (IX–X)</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Sr. Secondary (XI–XII)</a>
+      </div>
+    </div>
+
+    <div class="sidebar-item has-sub">
+      <a href="#" class="sidebar-link sidebar-toggle-link">
+        <i class="fa-solid fa-building"></i> Facility
+        <i class="fa-solid fa-chevron-down arrow"></i>
+      </a>
+      <div class="sidebar-sub">
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Smart Classrooms</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Science Lab</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Computer Lab</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Library</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Sports Ground</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Transport</a>
+      </div>
+    </div>
+
+    <div class="sidebar-item">
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-graduation-cap"></i> Curriculum
+      </a>
+    </div>
+
+    <div class="sidebar-item has-sub">
+      <a href="#" class="sidebar-link sidebar-toggle-link">
+        <i class="fa-solid fa-file-pen"></i> Admission
+        <i class="fa-solid fa-chevron-down arrow"></i>
+      </a>
+      <div class="sidebar-sub">
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Eligibility</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Admission Procedure</a>
+        <a href="#"><i class="fa-solid fa-circle-dot"></i> Documents Required</a>
+      </div>
+    </div>
+
+    <div class="sidebar-item">
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-images"></i> Gallery
+      </a>
+    </div>
+
+    <div class="sidebar-item">
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-briefcase"></i> Careers
+      </a>
+    </div>
+
+    <div class="sidebar-item">
+      <a href="#" class="sidebar-link">
+        <i class="fa-solid fa-envelope"></i> Contact
+      </a>
+    </div>
+
+  </nav>
+
+  <div class="sidebar-footer">
+    <p><i class="fa-solid fa-phone"></i> 63698 32363</p>
+    <p><i class="fa-solid fa-globe"></i> www.kailashschool.org</p>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header id="mainHeader">
+  <div class="logo-area">
+    <img src="assets/logo.jpeg" alt="Logo">
+    <div>
+      <h2>KAILASH SCHOOL</h2>
+      <span>Senior Secondary - CBSE</span>
+    </div>
+  </div>
+  
+
+  <nav class="main-nav">
+    <ul class="nav-links">
+
+      <li><a href="#">Home</a></li>
+
+      <!-- ABOUT MEGA MENU -->
+      <li class="mega-parent">
+        <a href="#">About </a>
+        <!-- <div class="mega-menu">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-star"></i> Who We Are</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Our History</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Our Mission</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Core Values</a>
+            </div>
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-users"></i> Leadership</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Principal's Message</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Management Team</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Advisory Board</a>
+            </div> -->
+            <!-- <div class="mega-col mega-highlight">
+              <div class="mega-badge">
+                <i class="fa-solid fa-award"></i>
+                <h5>25+ Years</h5>
+                <p>Of Academic Excellence</p>
+                <a href="#" class="mega-btn">Know More</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </li>
+
+      <!-- ACADEMIC MEGA MENU -->
+      <li class="mega-parent">
+        <a href="#">Academic <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="mega-menu">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-book"></i> Classes</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Primary (I – V)</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Middle (VI – VIII)</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Secondary (IX – X)</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Sr. Secondary (XI – XII)</a>
+            </div>
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-flask"></i> Streams</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Science</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Maths</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Computer</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Career Guidance</a>
+            </div>
+           <div class="mega-col mega-highlight">
+              <div class="mega-badge">
+                <i class="fa-solid fa-award"></i>
+                <h5>25+ Years</h5>
+                <p>Of Academic Excellence</p>
+                <a href="#" class="mega-btn">Know More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- FACILITY MEGA MENU -->
+      <li class="mega-parent">
+        <a href="#">Facility <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="mega-menu">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-chalkboard"></i> Classrooms</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Smart Classrooms</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Digital Board</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> AC Rooms</a>
+            </div>
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-microscope"></i> Labs & Library</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Science Lab</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Computer Lab</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Library</a>
+            </div>
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-futbol"></i> Sports & More</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Sports Ground</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Indoor Games</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Transport</a>
+              <!-- <a href="#"><i class="fa-solid fa-circle-dot"></i> Canteen</a> -->
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li><a href="#">Curriculum</a></li>
+
+      <!-- ADMISSION MEGA MENU -->
+      <li class="mega-parent">
+        <a href="#">Admission <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="mega-menu">
+          <div class="mega-inner">
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-file-pen"></i> Apply</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Apply Online</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Download Form</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Eligibility</a>
+            </div>
+            <div class="mega-col">
+              <h4><i class="fa-solid fa-indian-rupee-sign"></i> Fees</h4>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Fee Structure</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Scholarships</a>
+              <a href="#"><i class="fa-solid fa-circle-dot"></i> Documents Required</a>
+            </div>
+            <div class="mega-col mega-highlight">
+              <div class="mega-badge urgent">
+                <i class="fa-solid fa-bell"></i>
+                <h5>Admissions Open!</h5>
+                <p>2026–27 Seats Filling Fast</p>
+                <a href="#" class="mega-btn">Apply Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Contact</a></li>
+
+    </ul>
+  </nav>
+
+  <button class="menu-btn" id="menuBtn">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+</header>
+
+<!-- MARQUEE -->
+<section class="marquee-section">
+  <div class="marquee-track">
+    <div class="marquee-content">
+      <span>🏆 Admissions Open 2026-27</span>
+      <span>📚 CBSE Curriculum</span>
+      <span>🚌 Transport Facility</span>
+      <span>⚽ Sports Excellence</span>
+      <span>💻 Smart Classrooms</span>
+      <span>🏅 Holistic Education</span>
+      <span>🎓 Excellence In Learning</span>
+      <span>🏆 Admissions Open 2026-27</span>
+      <span>📚 CBSE Curriculum</span>
+      <span>🚌 Transport Facility</span>
+      <span>⚽ Sports Excellence</span>
+      <span>💻 Smart Classrooms</span>
+      <span>🏅 Holistic Education</span>
+      <span>🎓 Excellence In Learning</span>
+    </div>
+  </div>
+</section>
+
+<!-- HERO -->
+<section class="hero">
+    <img src="assets/images/herobanner.jpg" alt="School Banner" class="hero-image">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <div class="text-box">
+            <h3>WELCOME TO</h3>
+            <h1>KAILASH SCHOOL OF EXCELLENCE</h1>
+            <h2>YES I CAN</h2>
+            <p>Every Step Today, A Better Tomorrow</p>
+
+            <div class="hero-btns">
+                <a href="#" class="btn-primary">Admission Open</a>
+                <!-- <a href="#" class="btn-secondary">Explore Campus</a> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-down">
+        <i class="fa-solid fa-angle-down"></i>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-school section">
+
+    <div class="section-heading">
+        <span>ABOUT KAILASH SCHOOL</span>
+        <h2>Building Future Leaders With Excellence</h2>
+        <p>
+            Empowering every child through knowledge, confidence, creativity,
+            leadership and values.
+        </p>
+    </div>
+
+    <div class="about-wrapper">
+
+        <!-- Left Images -->
+        <div class="about-images">
+
+            <div class="img-card card-1">
+                <img src="assets/images/about_1.jpg" alt="">
+            </div>
+
+            <div class="img-card card-2">
+                <img src="assets/images/about_2.jpg" alt="">
+            </div>
+
+            <div class="experience-box">
+                <h3>25+</h3>
+                <p>Years of Excellence</p>
+            </div>
+
+        </div>
+
+        <!-- Right Content -->
+        <div class="about-content">
+
+            <h3>Kailash School of Excellence</h3>
+
+            <p>
+                Kailash School of Excellence is a premier Senior Secondary CBSE
+                institution committed to nurturing young minds through quality
+                education, strong values and holistic development.
+            </p>
+
+            <p>
+                Established with the vision of creating confident, capable and
+                compassionate individuals, the school provides an enriching
+                academic environment where every child is encouraged to discover
+                their unique talents and potential.
+            </p>
+
+            <p>
+                With modern infrastructure, experienced faculty members and
+                student-centered learning methodologies, we continue to shape
+                responsible global citizens empowered to excel in every walk of
+                life.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Vision Mission Motto -->
+
+<section class="vmm-section">
+
+    <div class="vmm-card vision">
+
+        <div class="icon">
+            <i class="fa-solid fa-eye"></i>
+        </div>
+
+        <h3>Vision</h3>
+
+        <p>
+            Empowering each child with the treasure of knowledge that will
+            ultimately unleash their inner potential and determination to
+            succeed, nurturing them to become the leaders of tomorrow.
+        </p>
+
+    </div>
+
+    <div class="vmm-card mission">
+
+        <div class="icon">
+            <i class="fa-solid fa-bullseye"></i>
+        </div>
+
+        <h3>Mission</h3>
+
+        <p>
+            We inspire every student with our motto "Yes I Can". Through
+            activities, competitions, practical learning experiences and
+            personalized attention, we help children discover and develop their
+            talents while ensuring academic and personal excellence.
+        </p>
+
+    </div>
+
+    <div class="vmm-card motto">
+
+        <div class="icon">
+            <i class="fa-solid fa-star"></i>
+        </div>
+
+        <h3>Motto</h3>
+
+        <h2>"YES I CAN"</h2>
+
+        <p>
+            We believe in transforming dreams into reality through confidence,
+            determination and self-belief.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- Why Choose Us -->
+
+<section class="why-school">
+
+    <div class="section-heading">
+        <span>WHY CHOOSE US</span>
+        <h2>Creating Excellence Beyond Academics</h2>
+    </div>
+
+    <div class="feature-grid">
+
+        <div class="feature-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h4>Academic Excellence</h4>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-laptop"></i>
+            <h4>Smart Classrooms</h4>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-book-open"></i>
+            <h4>CBSE Curriculum</h4>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-users"></i>
+            <h4>Experienced Faculty</h4>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-futbol"></i>
+            <h4>Sports & Activities</h4>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-award"></i>
+            <h4>Leadership Development</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CIRCLE GALLERY -->
+<section class="circle-gallery section reveal">
+  <div class="section-title">
+    <span>Gallery</span>
+    <h2>Explore Our Memories</h2>
+  </div>
+  <div class="circle-container">
+    <div class="circle circle1">
+      <img src="assets/gallery/gal1.jpg" alt="Campus">
+    </div>
+    <div class="circle circle2">
+      <img src="assets/gallery/gal2.jpg" alt="Campus">
+    </div>
+    <div class="circle center-logo">
+      <img src="assets/gallery/gal3.jpg" alt="Logo">
+    </div>
+    <div class="circle circle3">
+      <img src="assets/gallery/gal4.jpg" alt="Campus">
+    </div>
+    <div class="circle circle4">
+      <img src="assets/gallery/gal5.jpg" alt="Campus">
+    </div>
+    
+  </div>
+</section>
+
+<!-- COUNTERS -->
+<section class="counter-section reveal">
+  <div class="counter-box">
+    <h2 class="counter" data-target="2500">0</h2>
+    <p>Students</p>
+  </div>
+  <div class="counter-box">
+    <h2 class="counter" data-target="150">0</h2>
+    <p>Faculty Members</p>
+  </div>
+  <div class="counter-box">
+    <h2 class="counter" data-target="25">0</h2>
+    <p>Years Excellence</p>
+  </div>
+  <div class="counter-box">
+    <h2 class="counter" data-target="100">0</h2>
+    <p>Success Rate</p>
+  </div>
+</section>
+
+<!-- ADMISSION BANNER -->
+<section class="admission-banner reveal">
+  <div class="overlay"></div>
+  <div class="content">
+    <h2>Admissions Open 2026-27</h2>
+    <p>Join one of the most progressive CBSE schools.</p>
+    <a href="#" class="btn-primary">Apply Now</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- School Info -->
+
+        <div class="footer-col">
+
+            <img src="assets/logo.jpeg" alt="School Logo" class="footer-logo">
+
+            <h3>KAILASH SCHOOL OF EXCELLENCE</h3>
+
+            <p>
+                A Premier Senior Secondary CBSE School dedicated to
+                nurturing excellence, leadership and lifelong learning.
+            </p>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-col">
+
+            <h4>Quick Links</h4>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-col">
+
+            <h4>Contact Us</h4>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                6/1072, E.B Colony,<br>
+                Paramathi Road, Namakkal.
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                63698 32363
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                94433 88306
+            </p>
+
+            <p>
+                <i class="fa-solid fa-globe"></i>
+                www.kailashschool.org
+            </p>
+
+        </div>
+
+        <!-- Social -->
+
+        <div class="footer-col">
+
+            <h4>Follow Us</h4>
+
+            <div class="social-links">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+            <div class="footer-btn">
+                <a href="#">Apply Admission</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 Kailash School of Excellence. All Rights Reserved.
+        </p>
+
+        <!-- <p>
+            Designed & Developed by Nexira Solution
+        </p> -->
+    </div>
+
+</footer>
+
+<!-- MOUSE GLOW -->
+<div class="mouse-glow" id="mouseGlow"></div>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
