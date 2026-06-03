@@ -23,14 +23,14 @@ function openSidebar() {
   sidebar.classList.add("open");
   sidebarOverlay.classList.add("active");
   document.body.style.overflow = "hidden";
-  menuBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+  menuBtn.innerHTML = '✕';
 }
 
 function closeSidebar() {
   sidebar.classList.remove("open");
   sidebarOverlay.classList.remove("active");
   document.body.style.overflow = "";
-  menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+  menuBtn.innerHTML = '☰';
 }
 
 menuBtn.addEventListener("click", () => {
